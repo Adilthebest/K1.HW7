@@ -11,6 +11,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
-        supportFragmentManager.beginTransaction().add(R.id.recycle,SecondFragment()).commit()
+        supportFragmentManager.beginTransaction().add(R.id.container,MainFragment()).commit()
     }
 }
