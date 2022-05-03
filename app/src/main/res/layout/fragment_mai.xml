@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    tools:context=".MaiFragment">
+<EditText
+    android:textColor="@color/black"
+    android:hint="text"
+    android:layout_marginTop="32dp"
+    android:id="@+id/text"
+    android:focusable="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <EditText
+        android:textColor="@color/black"
+        android:layout_marginTop="32dp"
+        android:id="@+id/color"
+        android:hint="Bakground color"
+        android:focusable="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:focusable="false"
+        android:id="@+id/textColor"
+        android:textColor="@color/black"
+        android:layout_marginTop="32dp"
+        android:hint="Text baground color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/add"
+        android:text="Add lesson"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
